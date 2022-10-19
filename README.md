@@ -18,6 +18,9 @@ Files were provided by DeeAnn M. Reeder in Oct 2022.
 [```msw3.json```](msw3.json)
 	json representation generated using ```preston ls | preston excel-stream > msw3.json```
 
+[```msw3-sample.json```](msw3.json)
+	first 10 records from msw3.json generated using ```cat msw3.json | head -n10 | jq . > msw3-sample.json```
+
 [```make.sh```](make.sh)
 	script that documents tracking, and conversation of original source files
 # Provenance
