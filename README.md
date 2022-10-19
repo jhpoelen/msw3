@@ -39,13 +39,13 @@ To translate the XLS sources into json, the following assumptions are made:
 To explain how the transformation was done, please consider the following simplified example.
 
 
-lets say, in file ```primates.xls``` , a worksheet "VALID NAME DATA" contains the following values: 
+lets say, an xls file contains a worksheet "VALID NAME DATA" with the following values: 
 
 | ORDER | FAMILY | GENUS | SPECIES |
 | --- | --- | --- | --- |
 | MONOTREMATA | Tachyglossidae | Tachyglossus | aculeatus |
 
-After tracking and packaging the file [```data-raw/03 Monotremata final MSW3 database.xls```](data-raw/03 Monotremata final MSW3 database.xls) as a Preston archive using [```make.sh```](make.sh), a JSON file is generated. The file looks something like this:
+After tracking and packaging the file as a Preston archive using [```make.sh```](make.sh), a JSON file is generated. The file looks something like this:
 
 ```json
 
